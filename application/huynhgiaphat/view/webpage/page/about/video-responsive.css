@@ -1,0 +1,18 @@
+.facebook-row {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.facebook-responsive {
+    overflow: hidden;
+    padding-bottom: 70%;
+    position:relative;
+    height:0;
+}
+
+.facebook-responsive iframe {
+    left:0;
+    top:0;
+    height:98%;
+    width:98%;
+    position:absolute;
+}

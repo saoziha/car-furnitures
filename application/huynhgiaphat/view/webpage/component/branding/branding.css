@@ -1,0 +1,12 @@
+.branding-team {
+  background-color: #000;
+}
+.branding-team > div {
+    font-family: "Ubuntu", sans-serif;
+    text-align: center;
+    color: white;
+}
+.branding-team p {
+    margin: 0 0 0 0 !important;
+    padding: 10px 0 10px 0;
+}

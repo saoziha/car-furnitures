@@ -1,0 +1,117 @@
+<!--
+<div class="header-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="user-menu">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-user"></i> Tài khoản</a></li>
+                        <li><a href="#"><i class="fa fa-heart"></i>Yêu thích</a></li>
+                        <li><a href="checkout.html"><i class="fa fa-user"></i> Thanh toán</a></li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="header-right">
+                    <ul class="list-unstyled list-inline">
+                        <li class="dropdown dropdown-small">
+                            <a data-toggle="dropdown" data-hover="dropdown" class="dropdown-toggle" href="#"><span class="key">language :</span><span class="value">English </span><b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">English</a></li>
+                                <li><a href="#">French</a></li>
+                                <li><a href="#">German</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="#"><i class="fa fa-user"></i> Đăng nhập</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+-->
+<!-- End header area -->
+
+
+<div class="site-branding-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="logo">
+                    <h1><a href="index.html"><span>AUTO HUỲNH GIA PHÁT</span></a></h1>
+                </div>
+            </div>
+
+            <div class="col-sm-6">
+              <!--  <div class="shopping-item">
+                    <a href="cart.html">Giỏ Hàng - <span class="cart-amunt">$800</span> <i class="fa fa-shopping-cart"></i> <span class="product-count">5</span></a>
+                </div>
+              -->
+            </div>
+        </div>
+    </div>
+</div> <!-- End site branding area -->
+
+<div class="mainmenu-area">
+    <div class="container">
+        <div class="row">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Trang chủ</a></li>
+                    <li><a href="shop.html">Sản phẩm</a></li>
+				<!-- <li><a href="single-product.html">Single product</a></li> -->
+                <!-- <li><a href="cart.html">Giỏ hàng</a></li> -->
+                    <li><a href="about.html">Giới thiệu</a></li>
+                    <li><a href="contact.html">Liên hệ</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+$(document).ready(function() {
+
+ // Get current page URL
+ var url = window.location.href;
+
+ // remove # from URL
+ url = url.substring(0, (url.indexOf("#") == -1) ? url.length : url.indexOf("#"));
+
+ // remove parameters from URL
+ url = url.substring(0, (url.indexOf("?") == -1) ? url.length : url.indexOf("?"));
+
+ // select file name
+ url = url.substr(url.lastIndexOf("/") + 1);
+
+ // If file name not avilable
+ if(url == ''){
+ url = 'index.html';
+ }
+
+ // Loop all menu items
+ $('.nav li').each(function(){
+
+  // select href
+  var href = $(this).find('a').attr('href');
+
+  // Check filename
+  if(url == href){
+
+   // Add active class
+   $(this).addClass('active');
+  }
+ });
+});
+</script>

@@ -1,0 +1,88 @@
+<div class="footer-top-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                  <div class="footer-about-us">
+                    <h2><span>CÔNG TY TTHH MTV AUTO HUỲNH GIA PHÁT</span></h2>
+                    <p>Trung tâm chăm sóc xe hơi công nghệ cao.</p>
+                    <p>Số Điện Thoại:
+                        <a href="tel:0942.222.334">0942.222.334</a> -
+                        <a href="tel:0977.222.334">0977.222.334</a> -
+                        <a href="tel:0975.799.668">0975.799.668</a>
+                    </p>
+                    <p>Email: <a href="mailto:autohuynhgiaphat@gmail.com">autohuynhgiaphat@gmail.com</a></p>
+                    <p>Địa Chỉ: 368 Nguyễn Hữu Thọ, Đà Nẵng</p>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/N%E1%BB%99i-Th%E1%BA%A5t-%C3%94-T%C3%B4-Hu%E1%BB%B3nh-Gia-Ph%C3%A1t-1943938129223583/" target="_blank"><i class="fa fa-facebook"></i></a>
+                        <a href="#" target="_blank"><i class="fa fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+
+			<!--
+            <div class="col-md-3 col-sm-6">
+                <div class="footer-menu">
+                    <h2 class="footer-wid-title">Người Dùng </h2>
+                    <ul>
+                        <li><a href="#">Tài khoản</a></li>
+                        <li><a href="#">Lịch sử giao dịch</a></li>
+                        <li><a href="#">Danh sách ưa thích</a></li>
+                        <li><a href="#">Liên hệ với nhà cung cấp</a></li>
+                        <li><a href="#">Trang trước</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                <div class="footer-menu">
+                    <h2 class="footer-wid-title">Danh Mục</h2>
+                    <ul>
+                        <li><a href="#">Nội thất xe</a></li>
+                        <li><a href="#">Dán xe</a></li>
+                        <li><a href="#">Nội thất xe</a></li>
+						<li><a href="#">Dán xe</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                <div class="footer-newsletter">
+                    <h2 class="footer-wid-title">Tin Tức</h2>
+                    <p>Đăng ký nhận bản tin của chúng tôi và nhận các ưu đãi độc quyền ngay trong hộp thư đến của mình!</p>
+                    <div class="newsletter-form">
+                        <form action="#">
+                            <input type="email" placeholder="Nhập email">
+                            <input type="submit" value="Đăng ký">
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+			-->
+        </div>
+    </div>
+</div> <!-- End footer top area -->
+
+<!--
+<div class="footer-bottom-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="copyright">
+
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="footer-card-icon">
+                    <i class="fa fa-cc-discover"></i>
+                    <i class="fa fa-cc-mastercard"></i>
+                    <i class="fa fa-cc-paypal"></i>
+                    <i class="fa fa-cc-visa"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+-->
